@@ -902,6 +902,10 @@ footer .row .col .names-second {
     #hidden-1 , #hidden-2 { 
         display: none;
     }
+    #hidden-3 { 
+        position: relative;
+        right: 5px;
+    }
     .screenshot .row .col .mobile-itself { 
         left: 35px;
     }
@@ -924,6 +928,20 @@ footer .row .col .names-second {
     }
     .features .row .col .flex { 
         padding: 10px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .features .row .col .flex .left { 
+        right: 0;
+    }
+    .features .row .col .flex .right { 
+        left: 0;
+    }
+    .features .row .col .flex .right h2 , .features .row .col .flex .right h4 { 
+        text-align: center;
+    }
+    .features .row .col .flex .right h4 {
+        padding: 13px 0;
     }
     .download { 
         height: auto;
@@ -934,6 +952,10 @@ footer .row .col .names-second {
     }
     .download .row .col { 
         flex-basis: auto;
+    }
+    .download .row .col .flex { 
+        position: relative;
+        right: 15px;
     }
     .pricing { 
         padding: 20px;
